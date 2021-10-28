@@ -1,7 +1,7 @@
 import styles from './Footer.module.css'
 
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
 
@@ -13,20 +13,7 @@ const Footer = () => {
         
         <div className="row" style={{ padding: "10px 35px 10px 35px" }}>
           
-          <div className="col-sm" style={{ }}>
-            <br />
-            <a href="#">Email</a>
-            <br /><br />
-            <a href="#">Instagram</a>
-            <br /><br />
-            <a href="#">Twitter</a>
-            <br /><br />
-            <a href="#">LinkedIn</a>
-            <br /><br />
-            <a href="#">Facebook</a>
-          </div>
-
-
+          
           <div className="col-sm text-center" >
             <label className={styles.title}>Vistas</label>
             <br /><br />

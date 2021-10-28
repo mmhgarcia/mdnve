@@ -1,6 +1,6 @@
 import './Cards.module.css';
-import React from 'react';
-import ReactDOM from 'react-dom';
+//import React from 'react';
+//import ReactDOM from 'react-dom';
 import Card from '../../Components/Card/Card';
 import CardTop from '../../Components/CardTop/CardTop';
 import { jsonData } from "../../Assets/json/Data";

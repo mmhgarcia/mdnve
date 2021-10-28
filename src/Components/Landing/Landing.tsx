@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import styles from './Landing.module.css';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+//import { BrowserRouter as Router, Link } from 'react-router-dom';
 import Foto from './Landing.png';
 import Signup from '../Signup/Signup';
 function LandingPage() {

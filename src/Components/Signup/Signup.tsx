@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 const Signup = () => {
 
-  const [md, setMD] = useState("");
+  //const [md, setMD] = useState("");
 
   return (
     <>

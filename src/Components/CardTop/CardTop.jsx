@@ -1,6 +1,6 @@
 import './CardTop.module.css';
 import React from 'react';
-import ReactDOM from 'react-dom';
+//import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
 
 const CardTop = (props) => {
