@@ -1,0 +1,24 @@
+#facilities{
+  background-color: white;
+  padding: 10px 5% 0 5%;
+}
+
+.title{
+  background-color: #dbe5e6;
+  padding: 30px 0px; 
+}
+
+.title{
+  text-align: center;
+  padding: 25px 0px;
+}
+
+.title h1{
+  font-weight: 900;
+  font-size: 34px;
+  padding-bottom: 5px;
+}
+
+.title p{
+  font-size: 18px;
+}

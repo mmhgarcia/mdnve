@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  #1B2A49;
+  min-height: 10vh; 
+}
+
+.title{
+  font-size: 1.20em;
+  text-decoration: underline;
+}
+
+.box{
+  background-color: #dbe5e6;  
+  color: inherit;
+  text-align: center
+}
+
+.navLink{
+  color: black;
+  font-weight:600;
+  font-size: 16px;
+  margin-right: 0px;
+  text-decoration: none;
+  background-color: transparent;
+  text-align: center;
+}
+
+.copy{
+  background-color: #47597E;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 500;
+}

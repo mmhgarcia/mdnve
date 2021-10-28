@@ -1,0 +1,23 @@
+.headerbox{
+  flex: display;
+  justify-content: center;
+  align-items: center;
+  padding: "15px 0px 15px 0px";  
+  background-color: #1B2A49;
+  height: 25vh;
+}
+
+.title{  
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  width: 100%; 
+}
+
+.title h1{
+  font-weight: 600;
+  font-size: 32px;
+  padding-bottom: 10px;
+}
+

@@ -1,0 +1,40 @@
+body{
+  background-color: white;
+}
+
+.headerbox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em 2em 0.5em 2em;  
+  background-color: gray;
+  height: 25vh;  
+  margin-bottom: 3vh;
+}
+
+.title{  
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%; 
+  font-weight: 600;
+  font-size: 3.7vh;
+}
+
+.subtitle{  
+  display: flex;
+  color: white; 
+  font-style: italic;  
+  width: 100%; 
+  font-weight: 600;
+  font-size: 0.9em;
+  justify-content: center;
+}
+
+.image{
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}

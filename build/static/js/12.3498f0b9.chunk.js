@@ -1,0 +1,2 @@
+(this.webpackJsonpmdnve=this.webpackJsonpmdnve||[]).push([[12],{57:function(s,t,c){"use strict";c.r(t),t.default=c.p+"static/media/Privacy.24d6bcb8.md"}}]);
+//# sourceMappingURL=12.3498f0b9.chunk.js.map
