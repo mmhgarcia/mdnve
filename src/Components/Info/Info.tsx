@@ -1,8 +1,8 @@
-import React, {useState, useEffect} from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import {useState, useEffect} from 'react';
+//import ReactDOM from 'react-dom';
+import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
-import Footer from '../Footer/Footer';
+//import Footer from '../Footer/Footer';
 import Markdown from 'markdown-to-jsx';
 
 const Info = () => {
@@ -14,7 +14,7 @@ const Info = () => {
   const location = useLocation();  
   const datos: any = location.state;
   const props = datos.datos.data;
-  const mdName = datos.datos.data.md;
+  //const mdName = datos.datos.data.md;
 
   console.log("en info, datos.datos.data vale ......")
   console.log(datos.datos.data);

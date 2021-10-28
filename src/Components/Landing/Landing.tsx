@@ -5,7 +5,7 @@ import Foto from './Landing.png';
 import Signup from '../Signup/Signup';
 function LandingPage() {
   
-  const [datos, setDatos] = useState({
+  const [datos] = useState({
     titulo: "Visión Sistémica de Gestión Empresarial",
     subtitulo: "Una Propuesta de Valor al Empresario."
   }); 
