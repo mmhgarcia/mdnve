@@ -1,5 +1,4 @@
 import './Home.module.css';
-import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Cards from '../../Containers/Cards/Cards';
 import Header from '../Header/Header';

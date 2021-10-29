@@ -1,9 +1,6 @@
 import styles from './Signup.module.css';
-//import { useState } from 'react'
 
 const Signup = () => {
-
-  //const [md, setMD] = useState("");
 
   return (
     <>

@@ -1,14 +1,11 @@
 import styles from "./Author.module.css";
 
 import { useEffect, useState } from 'react'
-//import { Link } from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
 
 const Author = () => {
 
   const [md, setMD] = useState("");
-
-  //const fName = "Author.md";
 
   useEffect(() => {
     import(`./${'./Author.md'}`)

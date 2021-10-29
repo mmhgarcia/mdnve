@@ -1,0 +1,16 @@
+STEPS
+
+  Codificar en vs code & save changes
+
+  Grabar cambios
+
+  Hacer commit
+
+  Hacer el push
+
+  Validar git
+
+  Ir a netlify
+  https://app.netlify.com/
+
+  Refrescar y comprobar publicacion en el navegador
