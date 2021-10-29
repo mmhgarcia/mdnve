@@ -1,23 +1,30 @@
+.top{
+  display: flex;
+  align-items: center;
+  padding: "15px 0px 15px 0px"; 
+  margin-top: "15px"; 
+  background-color: white;
+  height: 6vh;  
+
+  color: gray;
+  font-family: "Arial";
+  font-weight: 500;
+  font-size: 3vw;
+}
+
+
 .headerbox{
-  flex: display;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: "15px 0px 15px 0px";  
-  background-color: #1B2A49;
-  height: 25vh;
+  background-color: #ffffff;
+  height: 18vh;
 }
 
 .title{  
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;  
-  width: 100%; 
+  color: black;
+  font-family: "Times New Roman";
+  font-weight: 700;
+  font-size: 8vw;
 }
-
-.title h1{
-  font-weight: 600;
-  font-size: 32px;
-  padding-bottom: 10px;
-}
-

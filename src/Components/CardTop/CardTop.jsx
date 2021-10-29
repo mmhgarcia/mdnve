@@ -14,9 +14,9 @@ const CardTop = (props) => {
 
             <div className="card">
 
-             <h1 className="display-6">
+             <h4>
                {props.data.titulo}
-             </h1>
+             </h4>
 
               <img className="card-img-top img-fluid responsive" src={`/Assets/img/${props.data.image}`} alt="" />
 

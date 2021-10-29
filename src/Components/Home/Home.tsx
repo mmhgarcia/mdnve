@@ -14,16 +14,12 @@ function Home() {
       <section id="facilities">
 
         <div id="container">
-
-          <Header />
-
+          
           <Cards />
 
           <Author />
 
-          <Signup />
-
-          <Footer />
+          <Signup />         
 
         </div>
 

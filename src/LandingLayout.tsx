@@ -8,10 +8,12 @@ const Landing= () => {
   return (
     <>
       <Router>
-        <Switch>
-          <Route exact path="/landing" component={LandingPage} />
-          <Route exact path="/" component={PublicLayout} />
-        </Switch>
+        <div className="container">
+          <Switch>
+            <Route exact path="/landing" component={LandingPage} />
+            <Route exact path="/" component={PublicLayout} />
+          </Switch>
+        </div>
       </Router>
     </>
   );

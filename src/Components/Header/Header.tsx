@@ -4,20 +4,27 @@ const Header = () => {
 
   return (
 
-    <div className={`${styles.headerbox} ${styles.title}`}>
+    <>
 
-      <div>  
-        <h1 className={`display-7 ${styles.title}`}>
-          Tu Vitrina Publicitaria.
-        </h1>
+      <div className={`d-flex justify-content-between ${styles.top}`}>
+        <div>
+          MDNVE
+        </div>
+        
+        <div>          
+        </div>
+        
+        <div>
+          T I F
+        </div>
       </div>
-   
-      <div>
+
+      <div className={`${styles.headerbox}`}>
+
         
       </div>
 
-    </div>
-  
+    </>  
   )
 };
 

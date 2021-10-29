@@ -16,16 +16,18 @@ const PublicLayout = () => {
   return(
     <>      
       <Router>
-        <Header />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />         
-          <Route path="/info" component={Info} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/terms" component={Terms} />
-          <Route path="/privacy" component={Privacy} />
-        </Switch>
-        <Footer />
+        <div className="container">
+          <Header />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />         
+            <Route path="/info" component={Info} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/terms" component={Terms} />
+            <Route path="/privacy" component={Privacy} />
+          </Switch>
+          <Footer />
+        </div>
       </Router>
     </>
   );
