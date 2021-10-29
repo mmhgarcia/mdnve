@@ -1,7 +1,7 @@
 export const jsonData = [
   {
       id: 1,
-      titulo: "La naturaleza como concepto del mundo material o universo material.",
+      titulo: "Una visión sistémica de la gestión empresarial. Propuesta al empresario.",
       subtitulo: "Subtitulo del post",
       detalle: "detalle del post # 1",
       autor: "alberto garcia",

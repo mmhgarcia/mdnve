@@ -11,6 +11,6 @@ STEPS
   Validar git
 
   Ir a netlify
-  https://app.netlify.com/
+  https://mdnve.netlify.app/
 
   Refrescar y comprobar publicacion en el navegador
