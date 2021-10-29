@@ -1,30 +1,49 @@
-.top{
+.topbox{
   display: flex;
   align-items: center;
   padding: "15px 0px 15px 0px"; 
   margin-top: "15px"; 
   background-color: white;
-  height: 6vh;  
+  height: 7vh;  
 
+  /* FONT */
   color: gray;
   font-family: "Arial";
   font-weight: 500;
-  font-size: 3vw;
+  font-size: 4vw;
 }
 
-
-.headerbox{
+.mainbox{
   display: flex;
+  flex-wrap: wrap;
+  text-align: center;
   justify-content: center;
   align-items: center;
-  padding: "15px 0px 15px 0px";  
+  padding: "0px 0px 15px 0px";  
   background-color: #ffffff;
-  height: 18vh;
+  height: 93vh;
+
+  /* FONT */
+  color: darkgray;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 600;  
+
 }
 
-.title{  
-  color: black;
-  font-family: "Times New Roman";
-  font-weight: 700;
-  font-size: 8vw;
+@media screen and (max-width: 600px) {
+  .mainbox {
+    font-size: 8vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .mainbox {
+    font-size: 10vw;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .mainbox {
+    font-size: 12vw;
+  }
 }
