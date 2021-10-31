@@ -36,13 +36,15 @@ const Info = () => {
   return (
     <>
 
+      <Link to="/">REGRESAR</Link>
+
+      <br /><br />
+
       <div style={{textAlign: 'center'}}>
         Publicado: {props.publicado} - Autor: {props.autor}
       </div>
 
       <img className="card-img-top img-fluid responsive" src={`/Assets/img/${props.image}`} alt="" />
-
-      <Link to="/">Back</Link>
 
       <div>
         <Markdown children={md} />

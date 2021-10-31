@@ -6,8 +6,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import PublicLayout from './PublicLayout';
 import LandingLayout from './LandingLayout';
 
-import './App.css';
-import './AppMedia.css';
+import './Styles/App.scss';
+import './Styles/_media.scss';
 
 function App() {
   

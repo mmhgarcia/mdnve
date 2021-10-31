@@ -16,7 +16,7 @@ const PublicLayout = () => {
   return(
     <>      
       <Router>
-        <div className="container">
+        <div>
           <Header />
           <Switch>
             <Route exact path="/" component={Home} />

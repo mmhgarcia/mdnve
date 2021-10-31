@@ -7,23 +7,32 @@ const Card = (props) => {
 
       <div className="col-md-3">
      
-       <div className="card text-center" style={{ height: '100%'}}>
+       <Link to={{ pathname: '/info', state: { datos: props } }} style={{ textDecoration: 'none', border: 'none' }}>
 
-         <img className="card-img-top img-fluid" src={`/Assets/img/${props.data.image}` } alt=""  />
-         
-          <div className="card-body">
+         <div className="col-md-12" style={{ marginTop: 0 }}>
 
-            <h5 className="card-title">{props.data.titulo}</h5>
+           <div className="card border-0">
 
-           <p className="card-text">{props.data.subtitulo}<br />{props.data.publicado} - {props.data.autor}</p>
+             <img className="border-0 card-img-top img-fluid responsive" src={`/Assets/img/${props.data.image}`} alt="" />
 
-            <Link to={{pathname: '/info', state:{datos: props} }}>
-                <button className="btn btn-primary">More info</button>
-            </Link>
+             <h4>
+               {props.data.subtitulo}
+             </h4>
 
-          </div>
+             <h4>
+               {props.data.titulo}
+             </h4>
 
-        </div>
+             <h4>
+               {props.data.publicado}
+             </h4>
+
+
+           </div>
+
+         </div>
+
+       </Link>
 
       </div>
   )

@@ -6,22 +6,12 @@ const Header = () => {
 
     <>
 
-      <div className={`d-flex justify-content-between titulo ${styles.topbox}`}>
-        <div>
-          MDNVE
-        </div>
-        
-        <div>          
-        </div>
-        
-        <div>
-          T I F
-        </div>
-      </div>
+      <div className={`d-flex justify-content-center head`}>
 
-      <div className={`${styles.mainbox}`}>
-        <label>Mesa de Negocios Venezuela</label>
-        
+        <div>
+          Mesa de Negocios
+        </div>        
+
       </div>
 
     </>  

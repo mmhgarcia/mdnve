@@ -19,9 +19,11 @@ const Card = (props) => {
          
           <div className="card-body">
 
+            <p className="card-text">{props.data.subtitulo}</p>
+
             <h5 className="card-title">{props.data.titulo}</h5>
 
-           <p className="card-text">{props.data.subtitulo}<br />{props.data.publicado} - {props.data.autor}</p>
+            <p className="card-text">{props.data.publicado}</p>
 
             <Link to={{pathname: '/info', state:{datos: props} }}>
                 <button className="btn btn-primary">More info</button>

@@ -1,0 +1,33 @@
+$mobile-bg-color: #aaee00;
+$desktop-bg-color: #ffdddd;
+$mobile-border: solid 2px black;
+$desktop-border: solid 2px red;
+$font1: 'Barlow Semi Condensed', Serif;
+$size1: '4em';
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: $font1;
+}
+
+// <= 600px
+@media screen and (max-width: 600px) {
+  
+  .head{    
+    font-family: $font1;
+    font-size: 24px;
+    font-weight: 600;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-bottom:20px;
+    
+  }
+
+}
+
