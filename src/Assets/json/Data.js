@@ -1,8 +1,8 @@
 export const jsonData = [
   {
       id: 1,
-      titulo: "Una visión sistémica de la gestión empresarial. Propuesta al empresario.",
-      subtitulo: "Subtitulo del post",
+      titulo: "Propuesta al empresario.",
+      subtitulo: "Una visión sistémica de la gestión empresarial.",
       detalle: "detalle del post # 1",
       autor: "alberto garcia",
       publicado: "23/10/2021",
