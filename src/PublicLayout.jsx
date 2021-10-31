@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -9,7 +9,7 @@ import Info from './Components/Info/Info';
 import Contact from './Components/Contact/Contact'
 import Terms from './Components/Terms/Terms'
 import Privacy from './Components/Privacy/Privacy'
-import Footer from './Components/Footer/Footer';
+//import Footer from './Components/Footer/Footer';
 
 const PublicLayout = () => {
 
