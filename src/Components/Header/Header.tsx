@@ -8,9 +8,7 @@ const Header = () => {
 
       <div className={`d-flex justify-content-center head`}>
 
-        <div>
-          Mesa de Negocios
-        </div>        
+        Mesa de Negocios VE
 
       </div>
 

@@ -19,8 +19,8 @@ body {
   
   .head{    
     font-family: $font1;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 800;
     height: 7vh;
     display: flex;
     justify-content: center;
@@ -43,17 +43,18 @@ body {
   }
 
   .card-foot .subtit{
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 0px;
   }
 
   .card-foot .tit{
     font-size: 24px;
+    font-weight: 600;
     margin-bottom: 0px;
   }
 
   .card-foot .date{
-    font-size: 16px;
+    font-size: 18px;
   }
 
 

@@ -36,21 +36,23 @@ const Info = () => {
   return (
     <>
 
-      <Link to="/">REGRESAR</Link>
-
-      <br /><br />
-
-      <div style={{textAlign: 'center'}}>
-        Publicado: {props.publicado} - Autor: {props.autor}
-      </div>
-
-      <img className="card-img-top img-fluid responsive" src={`/Assets/img/${props.image}`} alt="" />
-
-      <div>
-
-        <Markdown children={md} />     
+      <div className="container">
 
         <Link to="/">REGRESAR</Link>
+
+        <br /><br />
+
+        <div style={{textAlign: 'center'}}>
+          Publicado: {props.publicado} - Autor: {props.autor}
+        </div>
+
+        <img className="card-img-top img-fluid responsive" src={`/Assets/img/${props.image}`} alt="" />
+
+        <div>
+
+          <Markdown children={md} />     
+
+        </div>
 
         <br /><br />
 
