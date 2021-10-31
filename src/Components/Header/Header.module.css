@@ -8,7 +8,6 @@
 
   /* FONT */
   color: gray;
-  font-family: "Arial";
   font-weight: 500;
   font-size: 4vw;
 }
@@ -25,25 +24,7 @@
 
   /* FONT */
   color: darkgray;
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  /*font-family: 'Barlow Semi Condensed', sans-serif;*/
   font-weight: 600;  
 
-}
-
-@media screen and (max-width: 600px) {
-  .mainbox {
-    font-size: 8vw;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .mainbox {
-    font-size: 10vw;
-  }
-}
-
-@media screen and (max-width: 2000px) {
-  .mainbox {
-    font-size: 12vw;
-  }
 }

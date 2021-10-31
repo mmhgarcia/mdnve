@@ -6,7 +6,7 @@ const Header = () => {
 
     <>
 
-      <div className={`d-flex justify-content-between ${styles.topbox}`}>
+      <div className={`d-flex justify-content-between titulo ${styles.topbox}`}>
         <div>
           MDNVE
         </div>

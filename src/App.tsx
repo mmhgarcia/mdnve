@@ -7,6 +7,7 @@ import PublicLayout from './PublicLayout';
 import LandingLayout from './LandingLayout';
 
 import './App.css';
+import './AppMedia.css';
 
 function App() {
   
