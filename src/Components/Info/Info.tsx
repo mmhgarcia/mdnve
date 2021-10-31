@@ -47,7 +47,13 @@ const Info = () => {
       <img className="card-img-top img-fluid responsive" src={`/Assets/img/${props.image}`} alt="" />
 
       <div>
-        <Markdown children={md} />
+
+        <Markdown children={md} />     
+
+        <Link to="/">REGRESAR</Link>
+
+        <br /><br />
+
       </div>
 
     </>

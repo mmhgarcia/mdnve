@@ -29,5 +29,31 @@ body {
     
   }
 
+  .historias-recientes{
+    font-weight: 700;
+    font-size: 22px;
+    padding-left: 20px;
+  }
+
+  .card-foot{
+    font-family: $font1;
+    color: black;
+    font-weight: 500;
+    padding-left: 5px;
+  }
+
+  .card-foot .subtit{
+    font-size: 20px;
+  }
+
+  .card-foot .tit{
+    font-size: 26px;
+  }
+
+  .card-foot .date{
+    font-size: 16px;
+  }
+
+
 }
 

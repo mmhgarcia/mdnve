@@ -15,18 +15,21 @@ const Card = (props) => {
 
              <img className="border-0 card-img-top img-fluid responsive" src={`/Assets/img/${props.data.image}`} alt="" />
 
-             <h4>
-               {props.data.subtitulo}
-             </h4>
+              <div className="card-foot">
 
-             <h4>
-               {props.data.titulo}
-             </h4>
+                <h5 class="subtit">
+                  {props.data.subtitulo}
+                </h5>
+               
+                <p class="tit">
+                  {props.data.titulo}
+                </p>
 
-             <h4>
-               {props.data.publicado}
-             </h4>
+               <p class="date">                 
+                   {props.data.publicado}
+               </p>
 
+              </div>
 
            </div>
 

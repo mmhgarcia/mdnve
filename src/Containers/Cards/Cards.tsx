@@ -6,11 +6,20 @@ const Cards = () => {
   
   return(
     <>  
-  
-      <div className="row" style={{ alignItems: "flex-start"}}>
-        {
-          jsonData.slice(0).map( (ob, index) => <Card key={index} data={ob} /> )        
-        }
+
+      <div className="container">
+
+        <div className="row" style={{ alignItems: "flex-start"}}>
+          
+          <p className="text-title historias-recientes">
+            Historias Recientes
+          </p>
+
+          {
+            jsonData.slice(0).map( (ob, index) => <Card key={index} data={ob} /> )        
+          }
+        </div>
+
       </div>
 
     </>

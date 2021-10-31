@@ -25,8 +25,7 @@ const PublicLayout = () => {
             <Route path="/contact" component={Contact} />
             <Route path="/terms" component={Terms} />
             <Route path="/privacy" component={Privacy} />
-          </Switch>
-          <Footer />
+          </Switch>          
         </div>
       </Router>
     </>

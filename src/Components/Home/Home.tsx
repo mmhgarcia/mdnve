@@ -15,9 +15,7 @@ function Home() {
           
           <Cards />
 
-          <Author />
-
-          <Signup />         
+          <br /><br /><br />
 
         </div>
 
