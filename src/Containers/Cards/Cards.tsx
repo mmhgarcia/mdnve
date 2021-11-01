@@ -1,5 +1,6 @@
 import './Cards.module.css';
 import Card from '../../Components/Card/Card';
+import CardH from '../../Components/CardH/CardH';
 import { jsonData } from "../../Assets/json/Data";
 
 const Cards = () => {
@@ -16,7 +17,13 @@ const Cards = () => {
           </p>
 
           {
-            jsonData.slice(0).map( (ob, index) => <Card key={index} data={ob} /> )        
+            jsonData.slice(0).map( (ob, index) => {
+                if(ob.orientation==="v")
+                  return <Card key={index} data={ob} />                
+                else 
+                  return <CardH key={index} data={ob} />                  
+              }
+            )        
           }
         </div>
 

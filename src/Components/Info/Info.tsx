@@ -36,11 +36,19 @@ const Info = () => {
   return (
     <>
 
-      <div className="container">
+      <div className="container info-card">
 
-        <Link to="/">REGRESAR</Link>
+        <div className="row" style={{ alignItems: "flex-start" }}>
 
-        <br /><br />
+          <Link to="/" className="back-button">Regresar</Link>
+
+          <br /><br />
+
+          <p className="title">
+            Información del Post
+          </p>
+
+        </div>
 
         <div style={{textAlign: 'center'}}>
           Publicado: {props.publicado} - Autor: {props.autor}

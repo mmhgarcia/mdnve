@@ -7,7 +7,8 @@ export const jsonData = [
       autor: "alberto garcia",
       publicado: "23/10/2021",
       image: "book1.jpg",
-      md: "post1.md"
+      md: "post1.md",
+      orientation: "v"
   },
   {
       id: 2,
@@ -17,7 +18,8 @@ export const jsonData = [
       autor: "alberto garcia",
       publicado: "23/10/2021",
       image: "book2.jpg",
-      md: "post2.md"
+      md: "post2.md",
+      orientation: "v"
   },
   {
       id: 3,
@@ -27,7 +29,8 @@ export const jsonData = [
       autor: "alberto garcia",
       publicado: "23/10/2021",
       image: "book3.jpg",
-      md: "post3.md"
+      md: "post3.md",
+      orientation: "v"
   },
   {
       id: 4,
@@ -37,7 +40,8 @@ export const jsonData = [
       autor: "alberto garcia",
       publicado: "23/10/2021",
       image: "book4.jpg",
-      md: "post4.md"
+      md: "post4.md",
+      orientation: "h"
   },
   {
       id: 5,
@@ -47,6 +51,7 @@ export const jsonData = [
       autor: "alberto garcia",
       publicado: "23/10/2021",
       image: "book5.jpg",
-      md: "post5.md"
+      md: "post5.md",
+      orientation: "h"
   }
 ];

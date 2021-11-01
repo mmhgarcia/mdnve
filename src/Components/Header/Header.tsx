@@ -1,12 +1,10 @@
-//import styles from './Header.module.css';
-
 const Header = () => {
 
   return (
 
     <>
 
-      <div className={`d-flex justify-content-center head`}>
+      <div className={`header`}>
 
         Mesa de Negocios VE
 
