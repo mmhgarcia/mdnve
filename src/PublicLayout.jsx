@@ -9,7 +9,7 @@ import Info from './Components/Info/Info';
 import Contact from './Components/Contact/Contact'
 import Terms from './Components/Terms/Terms'
 import Privacy from './Components/Privacy/Privacy'
-//import Footer from './Components/Footer/Footer';
+import Footer from './Components/Footer/Footer';
 
 const PublicLayout = () => {
 
@@ -25,7 +25,8 @@ const PublicLayout = () => {
             <Route path="/contact" component={Contact} />
             <Route path="/terms" component={Terms} />
             <Route path="/privacy" component={Privacy} />
-          </Switch>          
+          </Switch>
+          <Footer/>          
         </div>
       </Router>
     </>

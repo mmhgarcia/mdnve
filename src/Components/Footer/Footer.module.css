@@ -18,18 +18,19 @@
 }
 
 .navLink{
-  color: black;
-  font-weight:600;
-  font-size: 16px;
-  margin-right: 0px;
+  color: white;
+  font-weight:500;
+  font-size: 18px;
+  margin-right: 15px;
   text-decoration: none;
   background-color: transparent;
   text-align: center;
 }
 
 .copy{
-  background-color: #47597E;
+  background-color: #034f84;
+  color: white;
+  font-weight: 500;
   font-size: 16px;
   text-decoration: none;
-  font-weight: 500;
 }

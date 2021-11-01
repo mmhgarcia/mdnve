@@ -7,43 +7,25 @@ const Footer = () => {
 
     <>
      
-      <div className={`bg-dark text-center text-white ${styles.container}`} style={{ margin: "0px 0px 0px 0px" }}>
+      <div className={`bg-dark text-center text-white ${styles.container}`}>
         
-        <div className="row" style={{ padding: "10px 35px 10px 35px" }}>
-          
-          
-          <div className="col-sm text-center" >
-            <label className={styles.title}>Vistas</label>
-            <br /><br />
-            <Link className={styles.navLink} to="/">Home</Link>
-            <br /><br />
-            <Link className={styles.navLink} to="/about">About</Link>
-            <br /><br />
-            <Link className={styles.navLink} to="/contact">Contact</Link>
-            <br /><br />
-            <Link className={styles.navLink} to="/terms">Terms</Link>
-            <br /><br />
-            <Link className={styles.navLink} to="/privacy">Privacy</Link>
-            <br /><br />
-          </div>
-          
-          
-
-          <div className="col-sm" style={{ }}>
-            <br />
-                      
-          </div>
+        <Link className={styles.navLink} to="/">Home</Link>
+            
+        <Link className={styles.navLink} to="/about">Acerca</Link>
+            
+        <Link className={styles.navLink} to="/contact">Contacto</Link>
+            
+        <Link className={styles.navLink} to="/terms">Términos</Link>
+            
+        <Link className={styles.navLink} to="/privacy">Privacidad</Link>
         
-        </div>
-      
       </div>
       
-      <div className={`text-center pb-4 pt-4 text-white ${styles.copy}`} >        
-        <label>Octubre 2021</label>
-      </div>
-      
-      <br /><br />
-  
+      <div className={`text-center pb-3 pt-3 ${styles.copy}`} >        
+        <label>MDNVE - 2021</label>
+      </div>     
+        
+      <br />
     </>
 
   )

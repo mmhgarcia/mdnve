@@ -15,8 +15,8 @@ function Home() {
           
           <Cards />
 
-          <br /><br /><br />
-
+          <br />
+          
         </div>
 
       </section>

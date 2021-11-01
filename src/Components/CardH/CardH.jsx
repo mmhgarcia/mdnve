@@ -44,9 +44,7 @@ const CardH = (props) => {
          </div>
       
       </Link>
-
-        
-       
+      
     </>
 
   )
