@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import Markdown from 'markdown-to-jsx';
-import styles from './About.module.css';
+//import styles from './About.module.css';
 import {Contenedor} from '../Styled/Controls';
 
 const About = () => {
