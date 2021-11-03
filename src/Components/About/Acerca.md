@@ -1,13 +1,4 @@
-# About
+# ** Acerca**
 
-Mi nombre es ...
-
-**Postgrados**
-
-**Estudios**
-
-**Actividad profesional**
-
-**Trabajos Realizados**
-
-**otros**
+Especifica detalles acerca de la trayectoria del autor del blog.
+*

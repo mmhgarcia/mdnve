@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import Markdown from 'markdown-to-jsx';
+import { Contenedor } from '../Styled/Controls';
 
 const Privacy = () => {
 
@@ -17,9 +18,11 @@ const Privacy = () => {
   }, []);
 
   return (
-    <div style={{ margin: "2% 5% 2% 5%" }}>
+    <Contenedor>
+
       <Markdown children={md} />
-    </div>
+
+    </Contenedor>
   );
 
 }

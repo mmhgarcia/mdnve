@@ -1,6 +1,7 @@
 import './Contact.module.css';
 import { useEffect, useState } from 'react'
 import Markdown from 'markdown-to-jsx';
+import { Contenedor } from '../Styled/Controls';
 
 const Contact = () => {
 
@@ -18,9 +19,11 @@ const Contact = () => {
   }, []);
 
   return (
-    <div style={{ margin: "2% 5% 2% 5%" }}>
+    <Contenedor>
+
       <Markdown children={md} />
-    </div>
+
+    </Contenedor>
   );
 
 }

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import Markdown from 'markdown-to-jsx';
 import styles from './About.module.css';
+import {Contenedor} from '../Styled/Controls';
 
 const About = () => {
 
@@ -18,11 +19,13 @@ const About = () => {
   },[]);
 
   return (
-    <div className={styles.container}>
-      <div className={styles.contentFormat}>
-        <Markdown children={md} />
-      </div>
-    </div>
+            
+    <Contenedor>
+    
+      <Markdown children={md} />
+    
+    </Contenedor>
+    
   );
 
 }

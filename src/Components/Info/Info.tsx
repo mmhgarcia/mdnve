@@ -2,9 +2,9 @@ import {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
+import {BackButton} from '../Styled/Controls';
 
 const Info = () => {
-
 
   const [md, setMD] = useState("");
 
@@ -40,7 +40,7 @@ const Info = () => {
 
         <div className="row" style={{ alignItems: "flex-start" }}>
 
-          <Link to="/" className="back-button">Regresar</Link>
+          <BackButton to="/">Regresar</BackButton>
 
           <br /><br />
 

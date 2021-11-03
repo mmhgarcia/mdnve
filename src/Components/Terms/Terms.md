@@ -1,4 +1,4 @@
-# Terms
+# **Términos**
 
 These are the service terms:
 
